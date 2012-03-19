@@ -1,0 +1,46 @@
+/* Color scheme: http://colorschemedesigner.com/#0H11Tw0w0w0w0 */
+
+body {
+	margin: 0;
+
+	font-family: Helvetica, Arial, sans-serif;
+	/* font-size: 10pt; */
+
+	background: #ffc273;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	clear: both;
+}
+
+#main {
+	margin: 0 4mm;
+}
+
+#panel {
+	position: fixed;
+	bottom: 0;
+
+	width: 100%;
+	margin: 0;
+	padding: 4mm;
+
+	background: #a65e00;
+	border-top: 1px solid #bf8130;
+}
+
+#panel > .button {
+	margin: 1mm;
+	padding: 2mm;
+
+	background: #ff9000;
+	border: solid 1px #882d13;
+
+	cursor: pointer;
+}
+
+#panel > .button.disabled {
+	background: #777;
+	border-color: #444;
+}
